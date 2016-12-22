@@ -23,7 +23,7 @@ def clean():
     """ Clean git repository.
     """
 
-    from conf import settings
+    from deploy.conf import settings
 
     try:
         with cd(settings.SRC_PATH()):
@@ -59,7 +59,7 @@ def deploy(branch, **kwargs):
     :type branch: str
     """
 
-    from conf import settings
+    from deploy.conf import settings
 
     commit = local('git log -1 --format=format:%H {0}'.format(branch),
                    capture=True)
