@@ -12,11 +12,11 @@ from deploy.target import live, stage
 
 # Project Details
 env.client = 'lingobee'
-env.project = 'alexa_sonos_client'
+env.project = 'socket_client'
 # Paths & Directories
 env.root_path = '/lingobee/data/www/'
 env.directories = {
-    'media': None, 'static': None, 'logs': None,
+  'logs': None,
 }
 
 # Users
@@ -29,9 +29,9 @@ env.scm = 'git'
 
 # Hosts to deploy too
 env.hosts = [
-    'arran'
+  'arran'
 ]
 
 
 def bootstrap():
-    _bootstrap()
+  _bootstrap()
