@@ -1,6 +1,0 @@
-{
-  "SocketServer": {
-    "host": "stage.alexa.lingobee.com",
-    "port": 8080
-  }
-}
