@@ -1,0 +1,6 @@
+{
+  "SocketServer": {
+    "host": "live.alexa.lingobee.com",
+    "port": 8081
+  }
+}
