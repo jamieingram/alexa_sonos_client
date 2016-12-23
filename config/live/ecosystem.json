@@ -16,7 +16,7 @@
       "host" : "arran",
       "ref"  : "origin/develop",
       "repo" : "git@github.com:jamieingram/alexa_sonos_client.git",
-      "path" : "/lingobee/data/www/lingobee/socket_client/socket_client_live/src",
+      "path" : "/lingobee/data/www/lingobee/socket_client/socket_client_live",
       "post-deploy" : "npm install && pm2 startOrRestart config/live/ecosystem.json --env live",
       "env"  : {
         "NODE_ENV": "live"
